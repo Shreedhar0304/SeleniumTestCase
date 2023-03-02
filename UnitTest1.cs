@@ -44,6 +44,7 @@ namespace SeleniumTestCase
                 webDriver.FindElement(Signin).Click();
                 Thread.Sleep(waitingTime);
 
+                webDriver.Quit();
 
             }
             catch (Exception ex)
